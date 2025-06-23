@@ -289,12 +289,17 @@ header {
   }
 
   header {
-    padding-right: 18px;
+    padding-right: 15px;
     padding-left: 15px;
   }
 
   .starter_btn {
     display: none;
+  }
+
+  .hero_section {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .hero_container h2 {
