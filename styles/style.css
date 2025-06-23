@@ -261,3 +261,47 @@ header {
   background-color: transparent;
   border: 1px solid var(--secondary-color);
 }
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.burger span {
+  width: 25px;
+  height: 2.5px;
+  background-color: white;
+}
+
+.burger .span_third_line {
+  width: 15px;
+  align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+  .nav_container {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+
+  header {
+    padding-right: 18px;
+    padding-left: 15px;
+  }
+
+  .starter_btn {
+    display: none;
+  }
+
+  .hero_container h2 {
+    font-size: 30px;
+  }
+
+  .hero_container p {
+    font-size: 14px;
+  }
+}
