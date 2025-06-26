@@ -1,0 +1,228 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: auto;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global Reset END */
+
+@font-face {
+  font-family: "popins-font-medium";
+  src: url("/assets/fonts/Poppins-Regular.ttf");
+}
+body {
+  font-family: "popins-font-medium", Arial, Helvetica, sans-serif;
+}
+
+.main_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 10px;
+}
+.main_section_firstbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.main_section_secondbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.box_line {
+  max-width: 1200px;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto;
+  opacity: 0.2;
+}
+
+.main_section_firstbox .first_box {
+  width: 280px;
+}
+
+.main_section_firstbox .seccond_box {
+  width: 280px;
+}
+.main_section_firstbox div h3 {
+  margin-top: 25px;
+}
+
+.bottom_box_logo {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 10px;
+  gap: 20px;
+}
+
+.ourteam_box {
+  max-width: 1280px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.ourteam_box_logo {
+  display: flex;
+  gap: 17.45px;
+  margin-left: 50px;
+}
+
+.main_section_firstbox div span {
+  display: block;
+  padding-bottom: 24px;
+}
+
+.main_section_secondbox .third_box {
+  width: 280px;
+}
+.main_section_secondbox .third_box h3 {
+  margin-top: 25px;
+}
+
+.main_section_secondbox .third_box span {
+  display: block;
+  padding-bottom: 28px;
+}
+
+.main_section_secondbox .fourt_box {
+  width: 280px;
+}
+
+.main_section_secondbox .fourt_box h3 {
+  margin-top: 25px;
+}
+
+.main_section_secondbox .fourt_box span {
+  padding-bottom: 24px;
+  display: block;
+}
