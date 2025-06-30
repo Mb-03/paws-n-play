@@ -131,7 +131,7 @@ table {
 
 @font-face {
   font-family: "popins-font-medium";
-  src: url("/assets/fonts/Poppins-Regular.ttf");
+  src: url("../assets/fonts/Poppins-Regular.ttf");
 }
 
 :root {
@@ -322,6 +322,7 @@ header {
 
 
 footer {
+  font-family: "popins-font-medium";
   margin-top: auto;
   background-color: var(--footer-color);
   padding: 48px 80px;
@@ -339,7 +340,7 @@ footer {
   justify-content: space-between;
   color: var(--secondary-color);
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 48px auto;
 }
 
 .footer_top_text {
@@ -402,7 +403,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-height: 204px;
+  min-height: 204px;
   width: 140px;
 }
 
@@ -430,7 +431,7 @@ footer {
 
 .footer_copyright {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 48px auto;
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
