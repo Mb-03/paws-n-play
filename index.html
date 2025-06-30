@@ -3,64 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="./style/styles.css" />
+    <link rel="stylesheet" href="../style/styles.css" />
   </head>
   <body>
-<section class="team-section">
-  <div class="team-header">
-    <img src="./assets/png/paws_logo.svg" alt="Paws Logo" />
-    <h2>Our Team</h2>
-  </div>
-  <div class="divider-line"></div>
-
-  <div class="team-members">
-    <!-- Member 1 -->
-    <div class="team-card">
-      <img src="./assets/png/Dr. Olivia Rhye.svg" alt="Dr. Olivia Rhye" />
-      <h3>Dr. Olivia Rhye</h3>
-      <span>Senior Veterinarian</span>
-      <div class="social-icons">
-        <img src="./assets/png/Twitter.svg" alt="Twitter" />
-        <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
-        <img src="./assets/png/dribbble.svg" alt="Dribbble" />
+    <section class="team-section">
+      <div class="team-header">
+        <img src="./assets/png/paws_logo.svg" alt="Paws Logo" />
+        <h2>Our Team</h2>
       </div>
-    </div>
+      <div class="divider-line"></div>
 
-    <!-- Member 2 -->
-    <div class="team-card">
-      <img src="./assets/png/Phoenix Baker.svg" alt="Phoenix Baker" />
-      <h3>Phoenix Baker</h3>
-      <span>Asst. Veterinarian</span>
-      <div class="social-icons">
-        <img src="./assets/png/Twitter.svg" alt="Twitter" />
-        <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
-        <img src="./assets/png/dribbble.svg" alt="Dribbble" />
-      </div>
-    </div>
+      <div class="team-members">
+        <!-- Member 1 -->
+        <div class="team-card">
+          <img src="./assets/png/Dr. Olivia Rhye.svg" alt="Dr. Olivia Rhye" />
+          <h3>Dr. Olivia Rhye</h3>
+          <span>Senior Veterinarian</span>
+          <div class="social-icons">
+            <img src="./assets/png/Twitter.svg" alt="Twitter" />
+            <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
+            <img src="./assets/png/dribbble.svg" alt="Dribbble" />
+          </div>
+        </div>
 
-    <!-- Member 3 -->
-    <div class="team-card">
-      <img src="./assets/png/Lana Steiner.svg" alt="Lana Steiner" />
-      <h3>Lana Steiner</h3>
-      <span>Resident Veterinarian</span>
-      <div class="social-icons">
-        <img src="./assets/png/Twitter.svg" alt="Twitter" />
-        <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
-        <img src="./assets/png/dribbble.svg" alt="Dribbble" />
-      </div>
-    </div>
+        <!-- Member 2 -->
+        <div class="team-card">
+          <img src="./assets/png/Phoenix Baker.svg" alt="Phoenix Baker" />
+          <h3>Phoenix Baker</h3>
+          <span>Asst. Veterinarian</span>
+          <div class="social-icons">
+            <img src="./assets/png/Twitter.svg" alt="Twitter" />
+            <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
+            <img src="./assets/png/dribbble.svg" alt="Dribbble" />
+          </div>
+        </div>
 
-    <!-- Member 4 -->
-    <div class="team-card">
-      <img src="./assets/png/Demi Wilkinson.svg" alt="Demi Wilkinson" />
-      <h3>Demi Wilkinson</h3>
-      <span>Intern Veterinarian</span>
-      <div class="social-icons">
-        <img src="./assets/png/Twitter.svg" alt="Twitter" />
-        <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
-        <img src="./assets/png/dribbble.svg" alt="Dribbble" />
+        <!-- Member 3 -->
+        <div class="team-card">
+          <img src="./assets/png/Lana Steiner.svg" alt="Lana Steiner" />
+          <h3>Lana Steiner</h3>
+          <span>Resident Veterinarian</span>
+          <div class="social-icons">
+            <img src="./assets/png/Twitter.svg" alt="Twitter" />
+            <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
+            <img src="./assets/png/dribbble.svg" alt="Dribbble" />
+          </div>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="team-card">
+                <img
+                  src="./assets/png/Demi Wilkinson.svg"
+                  alt="Demi Wilkinson"
+                />
+                <h3>Demi Wilkinson</h3>
+                <span>Intern Veterinarian</span>
+                <div class="social-icons">
+                  <img src="./assets/png/Twitter.svg" alt="Twitter" />
+                  <img src="./assets/png/linkedin.svg" alt="LinkedIn" />
+                  <img src="./assets/png/dribbble.svg" alt="Dribbble" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
-  </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
