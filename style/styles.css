@@ -162,7 +162,6 @@ body {
   padding-right: 32px;
   padding-left: 32px;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   gap: 24px;
 }
@@ -213,6 +212,10 @@ body {
 @media (max-width: 900px) {
   .team-members {
     flex-direction: column;
+    padding-top: 40px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    padding-left: 16px;
   }
 
   .team-card h3 {
@@ -228,34 +231,37 @@ body {
   }
   .team-header .img {
     width: 20.32px;
-    height: 18.4px;
+    height: 24px;
   }
+
   .team-header h2 {
     font-size: 20px;
   }
 
   .divider-line {
-    margin: 20px 15px;
-  }
-
-  .team-card {
-    margin-right: 14px;
-    margin-left: 14px;
+    margin: -20px 15px;
+    width: 365px;
   }
 
   .box-one {
     gap: 6px;
+    width: 350px;
+    margin-right: 14px;
+    margin-left: 14px;
   }
 
   .box-two {
     gap: 6px;
+    width: 350px;
+    height: 256.42px;
+    margin-right: 14px;
+    margin-left: 14px;
   }
 
   .social-icons {
     width: auto;
-    height: 15.048555374145508px;
+    height: 15.04px;
     gap: 12.54px;
     justify-content: center;
-    align-self: center;
   }
 }
